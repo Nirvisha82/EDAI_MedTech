@@ -1,6 +1,6 @@
 .about{
 	cursor: pointer;
-	background-color: rgb(111, 190, 255);
+	background-color: #0e9fd4;
 	color: rgb(255, 255, 255);
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -23,8 +23,8 @@
 	font-size: 40px;
 	color: #FFFFFF;
 	opacity: 0.7;
-	background-color: rgb(83, 132, 238);
-	border: 2px solid rgb(83, 132, 238);
+	background-color: #35cff2;
+	border: 2px solid #35cff2;
 
 	webkit-transition:all .5s ease;
  	moz-transition:all .5s ease;
