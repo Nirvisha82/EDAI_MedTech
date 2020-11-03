@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" class="demo-1 no-js">
+	<head> <style> html { scroll-behavior: smooth; }</style>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Parallax Effect Video Background Demo</title>
+		<meta name="description" content="A demo to create awesome and great looking parallax effect video background by using CSS3. Not only this but also implemented different layers for content and images. It is responsive and work well on media devices." />
+    <meta name="author" content="Codeconvey" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/cssparallax.css" />
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
+        <link rel="stylesheet" href="css/aboutstyle.css">
+        <link rel="stylesheet" href="css/navstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/formstyle.css">
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+        
+
+	</head>
+	<body>
+
+    <header>
+      <nav>
+          <input class="menu__checkbox" type="checkbox" role="Menu" aria-label="Menu" aria-controls="navigation" aria-haspopup="true" id="menu">
+          <label class="menu__icon" for="menu"><span class="hamburger"></span></label>
+          <ul class="menu" role="menuitem">
+              <li><a href="#homee"><i class="fa fa-home" aria-hidden="true"></i>&nbspHome</a></li>
+              <li><a href="#aboutt"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbspAbout</a></li>
+              <li><a href="#formHolder"><i class="fa fa-user" aria-hidden="true"></i>&nbspSignUp and Login</a></li>
+              <li onclick="openNav()"></i><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>&nbspContact Us</a></li>
+          </ul>
+      </nav>
+  </header>
+<!-- partial -->
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <h1 style="color:white;">Get in Touch <hr style="width:10%;text-align:center;margin-left:50;color:white;"></hr></h1>
+  <p style="color:white;">Thank you for your interest! Please fill out the form below if <br>you would like to work together.</p>
+
+
+  <div class="container">
+    <form>
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+
+      <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your email address..">
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="age" name="age" placeholder="Your age..">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+          <div class="col-75">
+      <input type="submit" value="Submit">
+    </div>
+      </div>
+    </form>
+  </div>
+  </div>
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+		<div class="main">         
+			<div class="wrapper">
+				
+                <div class="ccparallaxeff" id="homee">
+                  
+                 
+
+                    <div class="pat2">
+                <div class="ParallaxImage bg2">
+                  <div class="containers">
+                    <h3>JOIN US</h3>
+               
+                  </div>
+                </div>
+
+
+                <div class="ParallaxContent">
+                  <div class="pat1">
+                  <div class="containers">
+
+<div class="container">
+   <section id="formHolder" id="formHolder">
+
+      <div class="row">
+
+         <!-- Brand Box -->
+         <div class="col-sm-6 brand">
+            <a href="#" class="logo"> <span>.</span></a>
+
+            <div class="heading">
+               <h2>MedTech</h2>
+               <p>Your Right Choice</p>
+            </div>
+
+            <div class="success-msg">
+               <p>Great! You are one of our members now</p>
+               <a href="#" class="profile">Your Profile</a>
+            </div>
+         </div>
+
+
+         <!-- Form Box -->
+         <div class="col-sm-6 form">
+
+            <!-- Login Form -->
+            <div class="login form-peice switched">
+               <form class="login-form" action="#" method="post">
+                  <div class="form-group">
+                     <label for="loginemail">Email Adderss</label>
+                     <input type="email" name="loginemail" id="loginemail" required>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="loginPassword">Password</label>
+                     <input type="password" name="loginPassword" id="loginPassword" required>
+                  </div>
+
+                  <div class="CTA">
+                     <input type="submit" value="Login">
+                     <a href="#" class="switch">I'm New</a>
+                  </div>
+               </form>
+            </div><!-- End Login Form -->
+
+
+            <!-- Signup Form -->
+            <div class="signup form-peice">
+               <form class="signup-form" action="#" method="post">
+
+                  <div class="form-group">
+                     <label for="name">Full Name</label>
+                     <input type="text" name="username" id="name" class="name">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="email">Email Adderss</label>
+                     <input type="email" name="emailAdress" id="email" class="email">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="phone">Phone Number - <small>Optional</small></label>
+                     <input type="text" name="phone" id="phone">
+                  </div>
+
+                  <div class="form-group">
+                     <label for="password">Password</label>
+                     <input type="password" name="password" id="password" class="pass">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="passwordCon">Confirm Password</label>
+                     <input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+                     <span class="error"></span>
+                  </div>
+
+                  <div class="CTA">
+                     <input type="submit" value="Signup Now" id="submit">
+                     <a href="#" class="switch">I have an account</a>
+                  </div>
+               </form>
+            </div><!-- End Signup Form -->
+         </div>
+      </div>
+
+   </section>
+
+
+</div>
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <section class="text-center about" id="aboutt">
+                <h1>About US</h1>
+                  <br><br>
+                <div class="containers">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200" >
+                      <span class="fa fa-group"></span>
+                      <h2>Section 1</h2>
+                      <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                    </div> 
+                    <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+                      <span class="fa fa-info"></span>
+                      <h2>Section 2 </h2>
+                      <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </p>
+                    </div> 
+                    <div class="clearfix visible-md-block visible-sm-block"></div>
+                    <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+                      <span class="fa fa-file"></span>
+                      <h2>Section 3</h2>
+                      <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+              </section>
+
+            <div class="colo">
+              <section style="background-color: white;">
+                <footer class="section bg-footer" style="width: 100%;">
+                  <div class="containers">
+                      <div class="row">
+                          <div class="col-lg-3">
+                              <div class="" style="margin-top: 50px;">
+                                  <h6 class="footer-heading text-uppercase text-white">Information</h6>
+                                  <ul class="list-unstyled footer-link mt-4">
+                                      <li><a href="">Pages</a></li>
+                                      <li><a href="">Our Team</a></li>
+                                      <li><a href="">Feuchers</a></li>
+                                      <li><a href="">Pricing</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+          
+                          <div class="col-lg-3">
+                              <div class="" style="margin-top: 50px;">
+                                  <h6 class="footer-heading text-uppercase text-white">Quick Links</h6>
+                                  <ul class="list-unstyled footer-link mt-4">
+                                      <li><a href="#index.html">Home</a></li>
+                                      <li><a href="#login_section">Login/Sign Up</a></li>
+                                      <li><a href="#about">About Us</a></li>
+                                      <li><a href="">Contact</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+          
+                          <div class="col-lg-2">
+                              <div class="" style="margin-top: 50px;">
+                                  <h6 class="footer-heading text-uppercase text-white">Help</h6>
+                                  <ul class="list-unstyled footer-link mt-4">
+                                      <li><a href="">Sign Up </a></li>
+                                      <li><a href="">Login</a></li>
+                                      <li><a href="">Terms of Services</a></li>
+                                      <li><a href="">Privacy Policy</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+          
+                          <div class="col-lg-4">
+                            <div class="" style="margin-top: 50px;">
+                                <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
+                                <p class="contact-info mt-4">In case of queries, contact</p>
+                                <p class="contact-info">+01 123-456-7890</p>
+                                <div class="mt-5">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="fab twitter footer-social-icon fa-twitter"></i></i></a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="fab google footer-social-icon fa-google"></i></i></a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="fab apple footer-social-icon fa-apple"></i></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+          
+                  <div class="text-center mt-5" style="margin-top: 50px;">
+                      <p class="footer-alt mb-0 f-14">2019 © Med-Tech, All Rights Reserved</p>
+                  </div>
+              </footer>
+            </section> 
+          </div>
+    </div><!-- /container -->
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script  src="js/formscript.js"></script>
+
+		
+		
+	</body>
+</html>

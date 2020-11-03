@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" class="demo-1 no-js">
+	<head> <style> html { scroll-behavior: smooth; }</style>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Parallax Effect Video Background Demo</title>
+		<meta name="description" content="A demo to create awesome and great looking parallax effect video background by using CSS3. Not only this but also implemented different layers for content and images. It is responsive and work well on media devices." />
+    <meta name="author" content="Codeconvey" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/cssparallax.css" />
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
+        <link rel="stylesheet" href="css/aboutstyle.css">
+        <link rel="stylesheet" href="css/navstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/formstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="stylesheet" href="css/cardsstyle.css">
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+        
+
+	</head>
+	<body>
+
+    <header>
+      <nav>
+          <input class="menu__checkbox" type="checkbox" role="Menu" aria-label="Menu" aria-controls="navigation" aria-haspopup="true" id="menu">
+          <label class="menu__icon" for="menu"><span class="hamburger"></span></label>
+          <ul class="menu" role="menuitem">
+              <li><a href="#homee"><i class="fa fa-home" aria-hidden="true"></i>&nbspHome</a></li>
+              <li><a href="#aboutt"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbspAbout</a></li>
+              <li><a href="#formHolder"><i class="fa fa-user" aria-hidden="true"></i>&nbspSignUp and Login</a></li>
+              <li onclick="openNav()"></i><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>&nbspContact Us</a></li>
+          </ul>
+      </nav>
+  </header>
+<!-- partial -->
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <h1 style="color:white;">Get in Touch <hr style="width:10%;text-align:center;margin-left:50;color:white;"></hr></h1>
+  <p style="color:white;">Thank you for your interest! Please fill out the form below if <br>you would like to work together.</p>
+
+
+  <div class="container">
+    <form>
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+
+      <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your email address..">
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="age" name="age" placeholder="Your age..">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+          <div class="col-75">
+      <input type="submit" value="Submit">
+    </div>
+      </div>
+    </form>
+  </div>
+  </div>
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+		<div class="main">         
+			<div class="wrapper">
+				
+                <div class="ccparallaxeff" id="homee">
+                  
+                  <div class="ParallaxVideo1">
+                    <video autoplay muted loop>
+                         <source src="video/final.mp4" type="video/mp4">
+                     </video> <br><br><br><br><br><br><br><br>
+                   <h1>MedTech</h1>
+                 </div>
+                
+                 
+                    
+                  <div class="ParallaxContent">
+                    <div class="pat2">
+                    <div class="containers">
+                      <div class="headlines">
+                          <h2>Parallax Effect Video Design</h2>
+                          <p>Work on all major devices</p>
+                      </div>
+                      
+                      
+                      <h3>Lorem Ipsum Dolor</h3>
+                      <p class="col-sm-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac dapibus dolor. Donec est elit, pellentesque eleifend risus euismod, mattis semper risus. Vestibulum dignissim, velit lacinia viverra bibendum, turpis nisi consequat odio, in rhoncus est purus a sem. Praesent orci velit, laoreet vitae ornare quis, pretium non nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam quis volutpat mi. Donec cursus tincidunt quam vitae convallis. Nullam sollicitudin erat at nisi porttitor tristique. Nulla non eros eget nulla accumsan malesuada vitae eget tellus. Sed ut mauris ut dolor tincidunt fringilla et nec lorem. Phasellus non lacus sodales arcu vestibulum gravida. Fusce eu massa nisl.</p>
+                      
+                      <p>Vestibulum pellentesque finibus sem, fringilla pharetra dolor dictum non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis et est in ex eleifend rutrum eu ac neque. Cras non pellentesque nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed massa id purus finibus lacinia id sit amet nunc. Mauris sed felis consectetur tortor rhoncus porta sed consectetur justo. Etiam dui arcu, sollicitudin eu scelerisque quis, condimentum nec nulla. Suspendisse et orci vitae ligula molestie viverra vitae et dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                      
+                      <p>Nunc a metus eget erat varius volutpat. Etiam condimentum fringilla nisl, at blandit neque finibus et. Aenean dignissim lectus a sapien facilisis rutrum. Donec sodales eu risus sed molestie. Nulla luctus consectetur vehicula. Sed vehicula cursus risus, quis hendrerit quam interdum sit amet. Vestibulum ultricies neque at aliquam venenatis. Maecenas laoreet auctor nulla in pharetra.</p>
+                      </div>
+                  </div>
+                </div>
+                  
+
+                <div class="ParallaxImage bg2">
+                  <div class="containers">
+                    <h3>JOIN US</h3>
+               
+                  </div>
+                </div>
+
+
+                <div class="ParallaxContent">
+                  <div class="pat1">
+                  <div class="containers">
+
+<div class="container">
+<section class="section">
+    <h1>Nom Nom Gallery</h1>
+    <div class="grid">
+      <div class="item item--large">
+        <div class="item__details">
+          Muffin jelly gingerbread 
+        </div>
+      </div>
+      <div class="item item--medium">
+        <div class="item__details">
+          sesame snaps chocolate
+        </div>
+      </div>
+      <div class="item item--large">
+        <div class="item__details">
+          Oat cake
+        </div>
+      </div>
+      <div class="item item--medium">
+        <div class="item__details">
+          Dragée pudding brownie
+        </div>
+      </div>
+  
+      <div class="item item--medium">
+        <div class="item__details">
+          sesame snaps chocolate
+        </div>
+      </div>
+      <div class="item item--large">
+        <div class="item__details">
+          Muffin jelly gingerbread 
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+</div>
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            <div class="colo">
+              <section style="background-color: white;">
+                <footer class="section bg-footer" style="width: 100%;">
+                  <div class="containers">
+                      <div class="row">
+                          <div class="col-lg-3">
+                              <div class="" style="margin-top: 50px;">
+                                  <h6 class="footer-heading text-uppercase text-white">Information</h6>
+                                  <ul class="list-unstyled footer-link mt-4">
+                                      <li><a href="">Pages</a></li>
+                                      <li><a href="">Our Team</a></li>
+                                      <li><a href="">Feuchers</a></li>
+                                      <li><a href="">Pricing</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+          
+                          <div class="col-lg-3">
+                              <div class="" style="margin-top: 50px;">
+                                  <h6 class="footer-heading text-uppercase text-white">Quick Links</h6>
+                                  <ul class="list-unstyled footer-link mt-4">
+                                      <li><a href="#index.html">Home</a></li>
+                                      <li><a href="#login_section">Login/Sign Up</a></li>
+                                      <li><a href="#about">About Us</a></li>
+                                      <li><a href="">Contact</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+          
+                          <div class="col-lg-2">
+                              <div class="" style="margin-top: 50px;">
+                                  <h6 class="footer-heading text-uppercase text-white">Help</h6>
+                                  <ul class="list-unstyled footer-link mt-4">
+                                      <li><a href="">Sign Up </a></li>
+                                      <li><a href="">Login</a></li>
+                                      <li><a href="">Terms of Services</a></li>
+                                      <li><a href="">Privacy Policy</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+          
+                          <div class="col-lg-4">
+                            <div class="" style="margin-top: 50px;">
+                                <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
+                                <p class="contact-info mt-4">In case of queries, contact</p>
+                                <p class="contact-info">+01 123-456-7890</p>
+                                <div class="mt-5">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="fab twitter footer-social-icon fa-twitter"></i></i></a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="fab google footer-social-icon fa-google"></i></i></a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="fab apple footer-social-icon fa-apple"></i></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+          
+                  <div class="text-center mt-5" style="margin-top: 50px;">
+                      <p class="footer-alt mb-0 f-14">2019 © Med-Tech, All Rights Reserved</p>
+                  </div>
+              </footer>
+            </section> 
+          </div>
+    </div><!-- /container -->
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script  src="js/formscript.js"></script>
+
+		
+		
+	</body>
+</html>

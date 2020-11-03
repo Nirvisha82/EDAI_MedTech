@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Grid Responsive Image Gallery</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/navstyle.css">
+<link rel="stylesheet" href="css/cssparallax.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel="stylesheet" href="css/formstyle.css">
+
+</head>
+<body>
+
+  <header>
+    <nav>
+        <input class="menu__checkbox" type="checkbox" role="Menu" aria-label="Menu" aria-controls="navigation" aria-haspopup="true" id="menu">
+        <label class="menu__icon" for="menu"><span class="hamburger"></span></label>
+        <ul class="menu" role="menuitem">
+            <li><a href="#homee"><i class="fa fa-arrow-left" aria-hidden="true"></i></i>&nbsp&nbspGo Back</a></li>
+            <li><a href="#formHolder"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbspLogout</a></li>
+            <li onclick="openNav()"></i><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>&nbspContact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <h1 style="color:white;">Get in Touch <hr style="width:10%;text-align:center;margin-left:50;color:white;"></hr></h1>
+  <p style="color:white;">Thank you for your interest! Please fill out the form below if <br>you would like to work together.</p>
+
+
+  <div class="container">
+    <form>
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+
+      <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your email address..">
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-75">
+        <input type="text" id="age" name="age" placeholder="Your age..">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+          <div class="col-75">
+      <input type="submit" value="Submit">
+    </div>
+      </div>
+    </form>
+  </div>
+  </div>
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+
+<!-- partial:index.partial.html -->
+
+<div class="ParallaxImage bg2">
+  <div class="containers">
+    <h4>Categories</h4>
+
+  </div>
+</div>
+
+<section style="background-color:#c5ccce8a ;">
+<section class="section">
+  
+  <div class="grid">
+    <div class="item item--large">
+      <div class="item__details">
+        HEAD 
+      </div>
+    </div>
+    <div class="item item--medium">
+      <div class="item__details">
+        HEART
+      </div>
+    </div>
+    <div class="item item--large">
+      <div class="item__details">
+        STOMACH
+      </div>
+    </div>
+    <div class="item item--medium">
+      <div class="item__details">
+        SKIN
+      </div>
+    </div>
+
+    <div class="item item--medium">
+      <div class="item__details">
+        LUNGS
+      </div>
+    </div>
+    <div class="item item--large">
+      <div class="item__details">
+        FLU
+      </div>
+    </div>
+   
+    </div>
+  </div>
+</div>
+</section>
+<!-- partial -->
+
+<div class="colo">
+  <section style="background-color: white;">
+    <footer class="section bg-footer" style="width: 100%;">
+      <div class="containers">
+          <div class="row">
+              <div class="col-lg-3">
+                  <div class="" style="margin-top: 50px;">
+                      <h6 class="footer-heading text-uppercase text-white">Information</h6>
+                      <ul class="list-unstyled footer-link mt-4">
+                          <li><a href="">Pages</a></li>
+                          <li><a href="">Our Team</a></li>
+                          <li><a href="">Feuchers</a></li>
+                          <li><a href="">Pricing</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="col-lg-3">
+                  <div class="" style="margin-top: 50px;">
+                      <h6 class="footer-heading text-uppercase text-white">Quick Links</h6>
+                      <ul class="list-unstyled footer-link mt-4">
+                          <li><a href="#index.html">Home</a></li>
+                          <li><a href="#login_section">Login/Sign Up</a></li>
+                          <li><a href="#about">About Us</a></li>
+                          <li><a href="">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="col-lg-2">
+                  <div class="" style="margin-top: 50px;">
+                      <h6 class="footer-heading text-uppercase text-white">Help</h6>
+                      <ul class="list-unstyled footer-link mt-4">
+                          <li><a href="">Sign Up </a></li>
+                          <li><a href="">Login</a></li>
+                          <li><a href="">Terms of Services</a></li>
+                          <li><a href="">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="" style="margin-top: 50px;">
+                    <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
+                    <p class="contact-info mt-4">In case of queries, contact</p>
+                    <p class="contact-info">+01 123-456-7890</p>
+                    <div class="mt-5">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab twitter footer-social-icon fa-twitter"></i></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab google footer-social-icon fa-google"></i></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab apple footer-social-icon fa-apple"></i></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+      <div class="text-center mt-5" style="margin-top: 50px;">
+          <p class="footer-alt mb-0 f-14">2019 © Med-Tech, All Rights Reserved</p>
+      </div>
+  </footer>
+</section> 
+</div>
+</div>
+</body>
+</html>
